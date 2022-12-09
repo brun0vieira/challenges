@@ -1,6 +1,16 @@
 import numpy as np
 
 nums = [n.rstrip('\n') for n in open("01_input.txt")]
+x = []
+aux = []
+for n in nums:
+    if n != '':
+        aux.append(n)
+    else:
+        x.append(aux)
+        aux = []
+
+print(x)
 
 aux, elfs = 0, []
 for n in nums:
