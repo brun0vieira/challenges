@@ -1,5 +1,3 @@
-import numpy as np
-
 input = [n.rstrip('\n') for n in open("02_input.txt")]
 
 rock, paper, scissors = ['A', 'X'], ['B', 'Y'], ['C', 'Z']

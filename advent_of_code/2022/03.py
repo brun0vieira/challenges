@@ -1,6 +1,3 @@
-import numpy as np
-import string
-
 input = [n.rstrip('\n') for n in open("03_input.txt")]
 
 def get_common(a, b):
