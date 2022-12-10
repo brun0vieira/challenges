@@ -1,6 +1,4 @@
 import re
-import os
-from time import sleep
 
 input = [n.rstrip('\n') for n in open("05_input.txt")]
 crates = input[:input.index('')-1]
